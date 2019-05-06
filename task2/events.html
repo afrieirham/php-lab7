@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!link to link bootstrap in html>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>SE Club Events</title>
+</head>
+
+<body style="background-color: #ADD8E6">
+  <!body is configured using bootstrap layout>
+    <div class="container">
+      <header>
+        <h1>Software Engineering Club</h1>
+      </header>
+      <!nav menu using bootstrap navbar by using "fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <! nav-brand with adding of img with custom styles>
+            <a class="navbar-brand" href="#"><img src="selogo.jpg" width="30" height="30"></img> Software Engineering
+              Club</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <! active state is indicated to show current page>
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="events.html">EVENTS<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.html">SIGN UP</a>
+                  </li>
+                </ul>
+                <!Bootstrap search form>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+            </div>
+        </nav>
+        <main>
+          <div class="jumbotron" style="background-color: #F0F8FF">
+            <h2>Upcoming Events</h2>
+            <table class="table table-sm table-bordered">
+              <tr class="table-primary">
+                <th><strong>Event</strong></th>
+                <th><strong>Date</strong></th>
+                <th><strong>Time</strong></th>
+                <th><strong>Venue</strong></th>
+              </tr>
+              <td><strong><i>Talk by Malaysian Software Testing Board (MSTB)</i></strong></td>
+              <td>10 March 2019</td>
+              <td>2pm - 4pm</td>
+              <td>DK2, FSKTM</td>
+              <tr>
+                <td><strong><i>One-Day Workshop on Node.js and MongoDB</i></strong></td>
+                <td>2 April 2019</td>
+                <td>9am - 5pm</td>
+                <td>MM1, FSKTM</td>
+              </tr>
+              <tr>
+                <td><strong><i>SE Day</i></strong></td>
+                <td>10 May 2019</td>
+                <td>9am - 5pm</td>
+                <td>DK2, FSKTM</td>
+              </tr>
+            </table>
+          </div>
+          <h2>Past Events</h2>
+          <div class="jumbotron p-4" style="background-color: #D0E0FF">
+            <h4>January 2019</h4>
+            <p>
+              <a href="phpworkshop.jpg"><img src="phpworkshopthumb.jpg" height="80" width="80"></a>
+              Workshop on PHP and MySQL
+            </p>
+          </div>
+          <div class="jumbotron p-4" style="background-color: #D0E0FF">
+            <h4>February 2019</h4>
+            <p>
+              <a href="alumni.jpg"><img src="alumnithumb.jpg" height="80" width="80"></a>
+              Gathering with SE alumni
+            </p>
+          </div>
+        </main>
+        <! footer area using bootstrap container>
+          <footer class="container text-center font-italic">
+            <hr>
+            Copyright &copy 2019 UM Software Engineering Club<br>
+            <a href="mailto:umseclub@um.edu.my">umseclub@um.edu.my</a>
+          </footer>
+          <!link to use Bootstrap�s compiled JavaScript>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
